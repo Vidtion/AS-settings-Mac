@@ -1,0 +1,15 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="fileIcons" value="false" />
+    <option name="isContrastMode" value="true" />
+    <option name="isDecoratedFolders" value="false" />
+    <option name="isHighContrast" value="true" />
+    <option name="isPsiIcons" value="false" />
+    <option name="isWizardShown" value="true" />
+    <option name="pristineConfig" value="false" />
+    <option name="settingsSelectedTab" value="2" />
+    <option name="selectedTheme" value="DARKER" />
+    <option name="userId" value="-2181d715:16898d3aafb:-8000" />
+    <option name="version" value="3.5.0.1" />
+  </component>
+</application>

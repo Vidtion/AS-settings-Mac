@@ -1,0 +1,67 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="/Volumes/WD500G/Documents/GitRepository/flutter_framework/lib/components/img/network_image.dart" timestamp="1553758493500">
+        <mark key="[" line="21" column="24" />
+        <mark key="]" line="21" column="23" />
+        <mark key="." line="21" column="23" />
+        <mark key="^" line="21" column="23" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1553758613421">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/Volumes/MacData/Dev/GItRepository/flutter_framework/lib/app/const.dart" timestamp="1569911912508" />
+      <file name="/Volumes/MacData/Dev/GItRepository/flutter_framework/lib/network/network.dart" timestamp="1569912008147" />
+      <file name="/Volumes/WD500G/Documents/GitRepository/flutter_framework/lib/tools/dbhelper.dart" timestamp="1553756545713">
+        <mark key="[" line="27" column="48" />
+        <mark key="]" line="27" column="53" />
+        <mark key="." line="27" column="53" />
+        <mark key="^" line="27" column="53" />
+      </file>
+      <file name="/Volumes/WD500G/Documents/GitRepository/flutter_framework/lib/pages/login/login_page.dart" timestamp="1553671367731">
+        <mark key="[" line="87" column="0" />
+        <mark key="]" line="87" column="0" />
+        <mark key="^" line="86" column="56" />
+        <mark key="." line="87" column="0" />
+      </file>
+      <file name="/Volumes/WD500G/Documents/GitRepository/flutter_framework/lib/main.dart" timestamp="1553756592334">
+        <mark key="[" line="13" column="27" />
+        <mark key="]" line="15" column="23" />
+        <mark key="^" line="15" column="23" />
+        <mark key="." line="15" column="23" />
+      </file>
+    </filemarks>
+    <jumps />
+    <registers>
+      <register name="1" type="2">
+        <text encoding="base64">CQkJCXJlcS5yZXNPYmoK</text>
+      </register>
+      <register name="&quot;" type="4">
+        <text>final</text>
+      </register>
+      <register name="-" type="4">
+        <text>final</text>
+      </register>
+    </registers>
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search />
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>

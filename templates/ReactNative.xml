@@ -1,0 +1,266 @@
+<templateSet group="ReactNative">
+  <template name="rnC" value="import React from 'react-native';&#10;import styles from 'styles';&#10;&#10;const { Component, View, Text } = React;&#10;&#10;class $NAME$ extends Component {&#10;  // 默认属性&#10;  static defaultProps = {};&#10;&#10;  // 属性类型&#10;  static propTypes = {};&#10;&#10;  // 构造&#10;  constructor(props) {&#10;    super(props);&#10;    // 初始状态&#10;    this.state = {};&#10;  }&#10;&#10;  // 自定义方法&#10;  handle() {&#10;    &#10;  }&#10;&#10;  // 渲染&#10;  render() {&#10;    return (&#10;      &lt;View&gt;&#10;        &lt;Text style={styles.textDefault}&gt;&#10;          $NAME$&#10;        &lt;/Text&gt;&#10;      &lt;/View&gt;&#10;    );&#10;  }&#10;&#10;}&#10;&#10;export default $NAME$;&#10;" description="新建组件" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="componentWillMount" value="componentWillMount() {&#10;  $END$&#10;}" description="componentWillMount" toReformat="true" toShortenFQNames="true" />
+  <template name="componentDidMount" value="componentDidMount() {&#10;$END$&#10;}" description="componentDidMount" toReformat="true" toShortenFQNames="true" />
+  <template name="propTypes" value="propTypes" description="propTypes" toReformat="false" toShortenFQNames="true" />
+  <template name="defaultProps" value="defaultProps" description="defaultProps" toReformat="false" toShortenFQNames="true" />
+  <template name="componentDidUnMount" value="componentDidUnMount() {&#10;$END$&#10;}" description="componentDidMount" toReformat="true" toShortenFQNames="true" />
+  <template name="componentWillUnMount" value="componentWillUnMount() {&#10;$END$&#10;}" description="componentWillUnMount" toReformat="true" toShortenFQNames="true" />
+  <template name="componentWillReceiveProps" value="componentWillReceiveProps() {&#10;$END$&#10;}" description="componentWillReceiveProps" toReformat="true" toShortenFQNames="true" />
+  <template name="componentDidUpdate" value="componentDidUpdate() {&#10;$END$&#10;}" description="componentDidUpdate" toReformat="true" toShortenFQNames="true" />
+  <template name="shouldComponentUpdate" value="shouldComponentUpdate() {&#10;$END$&#10;}" description="shouldComponentUpdate" toReformat="true" toShortenFQNames="true" />
+  <template name="ActivityIndicatorIOS" value="ActivityIndicatorIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="ART" value="ART" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="DatePickerIOS" value="DatePickerIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="DrawerLayoutAndroid" value="DrawerLayoutAndroid" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="Image" value="Image" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="ListView" value="ListView" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="MapView" value="MapView" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="Modal" value="Modal" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="Navigator" value="Navigator" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="NavigatorIOS" value="NavigatorIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="PickerIOS" value="PickerIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="ProgressBarAndroid" value="ProgressBarAndroid" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="ProgressViewIOS" value="ProgressViewIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="ScrollView" value="ScrollView" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="SegmentedControlIOS" value="SegmentedControlIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="SliderIOS" value="SliderIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="SnapshotViewIOS" value="SnapshotViewIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="Switch" value="Switch" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="SwitchAndroid" value="SwitchAndroid" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="SwitchIOS" value="SwitchIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="TabBarIOS" value="TabBarIOS" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="Text" value="Text" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="TextInput" value="TextInput" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="ToastAndroid" value="ToastAndroid" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="ToolbarAndroid" value="ToolbarAndroid" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="Touchable" value="Touchable" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="TouchableHighlight" value="TouchableHighlight" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="TouchableNativeFeedback" value="TouchableNativeFeedback" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="TouchableOpacity" value="TouchableOpacity" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="TouchableWithoutFeedback" value="TouchableWithoutFeedback" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="View" value="View" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="ViewPagerAndroid" value="ViewPagerAndroid" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="WebView" value="WebView" description="ReactNative Component" toReformat="true" toShortenFQNames="true" />
+  <template name="ActionSheetIOS" value="ActionSheetIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="AdSupportIOS" value="AdSupportIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="AlertIOS" value="AlertIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="Animated" value="Animated" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="AppRegistry" value="AppRegistry" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="AppStateIOS" value="AppStateIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="AsyncStorage" value="AsyncStorage" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="BackAndroid" value="BackAndroid" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="CameraRoll" value="CameraRoll" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="Dimensions" value="Dimensions" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="Easing" value="Easing" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="ImagePickerIOS" value="ImagePickerIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="IntentAndroid" value="IntentAndroid" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="InteractionManager" value="InteractionManager" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="LayoutAnimation" value="LayoutAnimation" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="LinkingIOS" value="LinkingIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="NetInfo" value="NetInfo" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="PanResponder" value="PanResponder" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="PixelRatio" value="PixelRatio" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="PushNotificationIOS" value="PushNotificationIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="Settings" value="Settings" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="StatusBarIOS" value="StatusBarIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="StyleSheet" value="StyleSheet" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="VibrationIOS" value="VibrationIOS" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="DeviceEventEmitter" value="DeviceEventEmitter" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="NativeAppEventEmitter" value="NativeAppEventEmitter" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="NativeModules" value="NativeModules" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="Platform" value="Platform" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="processColor" value="processColor" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="requireNativeComponent" value="requireNativeComponent" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="EdgeInsetsPropType" value="EdgeInsetsPropType" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="PointPropType" value="PointPropType" description="ReactNative Api" toReformat="true" toShortenFQNames="true" />
+  <template name="constructor" value="// 构造&#10;  constructor(props) {&#10;    super(props);&#10;    // 初始状态&#10;    this.state = {};&#10;  }" description="React Native ES6 Class constructor func" toReformat="false" toShortenFQNames="true" />
+  <template name="Component" value="Component" description="React Component" toReformat="false" toShortenFQNames="true" />
+  <template name="LinkedStateMixin" value="LinkedStateMixin" description="ReactNative addons" toReformat="true" toShortenFQNames="true" />
+  <template name="Perf" value="Perf" description="ReactNative addons" toReformat="true" toShortenFQNames="true" />
+  <template name="TestModule" value="TestModule" description="ReactNative addons" toReformat="true" toShortenFQNames="true" />
+  <template name="TestUtils" value="TestUtils" description="ReactNative addons" toReformat="true" toShortenFQNames="true" />
+  <template name="batchedUpdates" value="batchedUpdates" description="ReactNative addons" toReformat="true" toShortenFQNames="true" />
+  <template name="cloneWithProps" value="cloneWithProps" description="ReactNative addons" toReformat="true" toShortenFQNames="true" />
+  <template name="createFragment" value="createFragment" description="ReactNative addons" toReformat="true" toShortenFQNames="true" />
+  <template name="update" value="update" description="ReactNative addons" toReformat="true" toShortenFQNames="true" />
+  <template name="alignItems" value="alignItems: " description="['flex-start', 'flex-end', 'center', 'stretch']" toReformat="true" toShortenFQNames="true" />
+  <template name="alignSelf" value="alignSelf: " description="['auto', 'flex-start', 'flex-end', 'center', 'stretch']" toReformat="true" toShortenFQNames="true" />
+  <template name="borderBottomWidth" value="borderBottomWidth: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="borderLeftWidth" value="borderLeftWidth: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="borderRightWidth" value="borderRightWidth: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="borderTopWidth" value="borderTopWidth: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="borderWidth" value="borderWidth: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="bottom" value="bottom: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="flex" value="flex: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="flexDirection" value="flexDirection: " description="enum('row', 'column')" toReformat="true" toShortenFQNames="true" />
+  <template name="flexWrap" value="flexWrap: " description="enum('wrap', 'nowrap')" toReformat="true" toShortenFQNames="true" />
+  <template name="height" value="height: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="justifyContent" value="justifyContent: " description="enum('flex-start', 'flex-end', 'center', 'space-between', 'space-around')" toReformat="true" toShortenFQNames="true" />
+  <template name="left" value="left: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="margin" value="margin: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="marginBottom" value="marginBottom: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="marginHorizontal" value="marginHorizontal: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="marginLeft" value="marginLeft: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="marginRight" value="marginRight: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="marginTop" value="marginTop: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="marginVertical" value="marginVertical: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="maxHeight" value="maxHeight: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="maxWidth" value="maxWidth: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="minHeight" value="minHeight: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="minWidth" value="minWidth: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="padding" value="padding: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="paddingBottom" value="paddingBottom: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="paddingHorizontal" value="paddingHorizontal: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="paddingLeft" value="paddingLeft: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="paddingRight" value="paddingRight: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="paddingTop" value="paddingTop: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="paddingVertical" value="paddingVertical: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="position" value="position: " description="enum('absolute', 'relative')" toReformat="true" toShortenFQNames="true" />
+  <template name="right" value="right: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="top" value="top: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="width" value="width: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="flex-start" value="flex-start: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="flex-end" value="flex-end: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="center" value="center: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="stretch" value="stretch: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="color" value="color: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="fontFamily" value="fontFamily: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="fontSize" value="fontSize: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="fontStyle" value="fontStyle: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="fontWeight" value="fontWeight: " description="['normal' /*default*/, 'bold','100' ... '900']" toReformat="true" toShortenFQNames="true" />
+  <template name="letterSpacing" value="letterSpacing: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="lineHeight" value="lineHeight: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="textAlign" value="textAlign: " description="['auto' /*default*/, 'left', 'right', 'center', 'justify']" toReformat="true" toShortenFQNames="true" />
+  <template name="textDecorationLine" value="textDecorationLine: " description="['none' /*default*/, 'underline', 'line-through', 'underline line-through']" toReformat="true" toShortenFQNames="true" />
+  <template name="textDecorationStyle" value="textDecorationStyle: " description="['solid' /*default*/, 'double', 'dotted','dashed']" toReformat="true" toShortenFQNames="true" />
+  <template name="textDecorationColor" value="textDecorationColor: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="writingDirection" value="writingDirection: " description="['auto' /*default*/, 'ltr', 'rtl']" toReformat="true" toShortenFQNames="true" />
+  <template name="backfaceVisibility" value="backfaceVisibility: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="backgroundColor" value="backgroundColor: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="borderColor" value="borderColor: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="borderTopColor" value="borderTopColor: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="borderRightColor" value="borderRightColor: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="borderBottomColor" value="borderBottomColor: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="borderLeftColor" value="borderLeftColor: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="borderRadius" value="borderRadius: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="borderTopLeftRadius" value="borderTopLeftRadius: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="borderTopRightRadius" value="borderTopRightRadius: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="borderBottomLeftRadius" value="borderBottomLeftRadius: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="borderBottomRightRadius" value="borderBottomRightRadius: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="borderStyle" value="borderStyle: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="opacity" value="opacity: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="overflow" value="overflow: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="shadowColor" value="shadowColor: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="shadowOffset" value="shadowOffset: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="shadowOpacity" value="shadowOpacity: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="shadowRadius" value="shadowRadius: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="contain" value="contain: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="cover" value="cover: " description="ReactNative StyleSheet" toReformat="true" toShortenFQNames="true" />
+  <template name="accessible" value="accessible={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="accessibilityLabel" value="accessibilityLabel={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="accessibilityComponentType" value="accessibilityComponentType={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="accessibilityLiveRegion" value="accessibilityLiveRegion={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="importantForAccessibility" value="importantForAccessibility={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="accessibilityTraits" value="accessibilityTraits={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onAccessibilityTap" value="onAccessibilityTap={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onMagicTap" value="onMagicTap={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="testID" value="testID={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onResponderGrant" value="onResponderGrant={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onResponderMove" value="onResponderMove={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onResponderReject" value="onResponderReject={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onResponderRelease" value="onResponderRelease={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onResponderTerminate" value="onResponderTerminate={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onResponderTerminationRequest" value="onResponderTerminationRequest={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onStartShouldSetResponder" value="onStartShouldSetResponder={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onStartShouldSetResponderCapture" value="onStartShouldSetResponderCapture={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onMoveShouldSetResponder" value="onMoveShouldSetResponder={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onMoveShouldSetResponderCapture" value="onMoveShouldSetResponderCapture={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onLayout" value="onLayout={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="pointerEvents" value="pointerEvents={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="style" value="style={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="removeClippedSubviews" value="removeClippedSubviews={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="renderToHardwareTextureAndroid" value="renderToHardwareTextureAndroid={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="shouldRasterizeIOS" value="shouldRasterizeIOS={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="collapsable" value="collapsable={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="needsOffscreenAlphaCompositing" value="needsOffscreenAlphaCompositing={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="automaticallyAdjustContentInsets" value="automaticallyAdjustContentInsets={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="contentInset" value="contentInset={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="contentOffset" value="contentOffset={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="bounces" value="bounces={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="bouncesZoom" value="bouncesZoom={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="alwaysBounceHorizontal" value="alwaysBounceHorizontal={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="alwaysBounceVertical" value="alwaysBounceVertical={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="centerContent" value="centerContent={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="contentContainerStyle" value="contentContainerStyle={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="decelerationRate" value="decelerationRate={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="horizontal" value="horizontal={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="directionalLockEnabled" value="directionalLockEnabled={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="canCancelContentTouches" value="canCancelContentTouches={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="keyboardDismissMode" value="keyboardDismissMode={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="keyboardShouldPersistTaps" value="keyboardShouldPersistTaps={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="maximumZoomScale" value="maximumZoomScale={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="minimumZoomScale" value="minimumZoomScale={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onScroll" value="onScroll={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onScrollAnimationEnd" value="onScrollAnimationEnd={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onContentSizeChange" value="onContentSizeChange={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="pagingEnabled" value="pagingEnabled={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="scrollEnabled" value="scrollEnabled={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="scrollEventThrottle" value="scrollEventThrottle={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="scrollIndicatorInsets" value="scrollIndicatorInsets={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="scrollsToTop" value="scrollsToTop={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="showsHorizontalScrollIndicator" value="showsHorizontalScrollIndicator={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="showsVerticalScrollIndicator" value="showsVerticalScrollIndicator={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="stickyHeaderIndices" value="stickyHeaderIndices={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="snapToInterval" value="snapToInterval={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="snapToAlignment" value="snapToAlignment={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="zoomScale" value="zoomScale={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onRefreshStart" value="onRefreshStart={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="numberOfLines" value="numberOfLines={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onPress" value="onPress={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="suppressHighlighting" value="suppressHighlighting={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="allowFontScaling" value="allowFontScaling={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="dataSource" value="dataSource={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="renderSeparator" value="renderSeparator={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="renderRow" value="renderRow={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="initialListSize" value="initialListSize={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onEndReached" value="onEndReached={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onEndReachedThreshold" value="onEndReachedThreshold={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="pageSize" value="pageSize={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="renderFooter" value="renderFooter={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="renderHeader" value="renderHeader={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="renderSectionHeader" value="renderSectionHeader={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="renderScrollComponent" value="renderScrollComponent={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="scrollRenderAheadDistance" value="scrollRenderAheadDistance={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onChangeVisibleRows" value="onChangeVisibleRows={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="animated" value="animated={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="transparent" value="transparent={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="visible" value="visible={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onDismiss" value="onDismiss={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="source" value="source={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="defaultSource" value="defaultSource={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="capInsets" value="capInsets={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="resizeMode" value="resizeMode={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onLoadStart" value="onLoadStart={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onProgress" value="onProgress={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onError" value="onError={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onLoad" value="onLoad={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onLoadEnd" value="onLoadEnd={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onPressIn" value="onPressIn={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onPressOut" value="onPressOut={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onLongPress" value="onLongPress={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="delayPressIn" value="delayPressIn={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="delayPressOut" value="delayPressOut={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="delayLongPress" value="delayLongPress={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="pressRetentionOffset" value="pressRetentionOffset={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="activeOpacity" value="activeOpacity={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="underlayColor" value="underlayColor={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onShowUnderlay" value="onShowUnderlay={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+  <template name="onHideUnderlay" value="onHideUnderlay={$END$}" description="Component Props" toReformat="true" toShortenFQNames="true" />
+</templateSet>
